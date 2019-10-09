@@ -29,7 +29,8 @@ function getScreenshot(){
 }
 
 function heartbeat(){
-	iframe.contentWindow.postMessage('heartbeat', '*');
+	document.querySelector("iframe").contentWindow.postMessage('heartbeat', '*');
+	console.info("heartbeat send");
 }
 
 function mouseclick(x, y){
