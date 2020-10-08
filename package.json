@@ -15,7 +15,7 @@
     "vue-material": "^1.0.0-beta-11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-babel": "^4.5.7",
     "@vue/cli-plugin-pwa": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
     "vue-template-compiler": "^2.6.10"
